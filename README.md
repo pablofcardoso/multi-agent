@@ -70,17 +70,19 @@ python test_pipeline.py
 ---
 
 ## 📁 Estrutura do Projeto
+```plaintext
 multi-agent/
 ├── agents/
-│ ├── researcher.py # Agente que busca na web
-│ └── summarizer.py # Agente que resume os resultados
+│   ├── researcher.py       # Agente que busca na web
+│   └── summarizer.py       # Agente que resume os resultados
 ├── graph/
-│ └── pipeline.py # Grafo LangGraph conectando os agentes
+│   └── pipeline.py         # Grafo LangGraph conectando os agentes
 ├── evaluation/
-│ └── evaluate.py # Avaliação com Ragas + LangSmith
-├── lambda_function.py # Entry point da AWS Lambda
-├── .env.example # Variáveis necessárias (sem valores)
+│   └── evaluate.py         # Avaliação com Ragas + LangSmith
+├── lambda_function.py      # Entry point da AWS Lambda
+├── .env.example            # Variáveis necessárias (sem valores)
 └── requirements.txt
+```
 
 
 ---
